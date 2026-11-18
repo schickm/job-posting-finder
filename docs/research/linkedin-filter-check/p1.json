@@ -1,0 +1,1108 @@
+{
+ "base": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Chicago, Illinois, United States"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4479191849",
+    "title": "Software Engineer I, Fullstack (Search)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4476876471",
+    "title": "Software Engineer II, Fullstack (Ads Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4486053639",
+    "title": "Software Engineer II, Fullstack (Capital Orchestration)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-03"
+   },
+   {
+    "id": "4483303207",
+    "title": "Software Engineer III - Golang",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-14"
+   },
+   {
+    "id": "4490811836",
+    "title": "Senior Software Engineer - Appian Platform",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4476887123",
+    "title": "Senior Software Engineer, Fullstack (App Experience)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4482262128",
+    "title": "Senior Full Stack Engineer",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4483259527",
+    "title": "Senior Software Engineer, Backend (AI Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4478018450",
+    "title": "Software Engineer III - Java / Kafka",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4456262858",
+    "title": "Software Engineer II, Fullstack (App Experience)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-15"
+   }
+  ]
+ },
+ "base_p1": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Chicago, Illinois, United States"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4481502658",
+    "title": "Senior Software Engineer, Atlas Clusters Security",
+    "company": "MongoDB",
+    "loc": "Chicago, IL",
+    "date": "2026-11-10"
+   },
+   {
+    "id": "4487315647",
+    "title": "Senior Software Engineer",
+    "company": "iManage",
+    "loc": "Chicago, IL",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4487917392",
+    "title": "Senior .NET Engineer",
+    "company": "HUB International",
+    "loc": "Greater Chicago Area",
+    "date": "2026-11-09"
+   },
+   {
+    "id": "4486453297",
+    "title": "Senior/Lead Full Stack Engineer - MeshMesh",
+    "company": "Salesforce",
+    "loc": "Chicago, IL",
+    "date": "2026-11-02"
+   },
+   {
+    "id": "4470987355",
+    "title": "Senior Software Engineer I",
+    "company": "Braze",
+    "loc": "Chicago, IL",
+    "date": "2026-11-05"
+   },
+   {
+    "id": "4489291873",
+    "title": "Senior Software Engineer .NET SDK - Language Clients",
+    "company": "ClickHouse",
+    "loc": "Chicago, IL",
+    "date": "2026-11-12"
+   },
+   {
+    "id": "4477857714",
+    "title": "Senior Software Engineer, Fullstack, Practice Eng",
+    "company": "NexHealth",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4477088758",
+    "title": "Senior Software Engineer",
+    "company": "zerohash",
+    "loc": "Chicago, IL",
+    "date": "2026-10-15"
+   },
+   {
+    "id": "4483223269",
+    "title": "Software Engineer II",
+    "company": "Flywire",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4484789908",
+    "title": "Senior Software Engineer, Infrastructure Engineering",
+    "company": "Reddit, Inc.",
+    "loc": "Chicago, IL",
+    "date": "2026-10-29"
+   }
+  ]
+ },
+ "public": {
+  "code": 200,
+  "ids": [
+   "4479191849",
+   "4476876471",
+   "4483303207",
+   "4490811836",
+   "4482262128",
+   "4487714333",
+   "4478018450",
+   "4482672622",
+   "4488697836",
+   "4459898569",
+   "4481502658",
+   "4487315647",
+   "4487917392",
+   "4486453297",
+   "4470987355",
+   "4489291873",
+   "4477857714",
+   "4477088758",
+   "4483223269",
+   "4484789908",
+   "4480277814",
+   "4491001157",
+   "4477317614",
+   "4490388743",
+   "4487557007",
+   "4453734725",
+   "4454556315",
+   "4485056396",
+   "4490844510",
+   "4488003115",
+   "4488008639",
+   "4485651330",
+   "4478561835",
+   "4485327912",
+   "4479766459",
+   "4427032399",
+   "4480167921",
+   "4427790656",
+   "4426674083",
+   "4480167916",
+   "4483576816",
+   "4456742968",
+   "4475051101",
+   "4408118118",
+   "4485148332",
+   "4488428542",
+   "4491180709",
+   "4462770634",
+   "4489773571",
+   "4467923281",
+   "4486808770",
+   "4468075085",
+   "4483409859",
+   "4488888511",
+   "4485278468",
+   "4429491310",
+   "4483909450",
+   "4485149220",
+   "4453740875",
+   "4488005837"
+  ]
+ },
+ "tpr_day": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Chicago, Illinois, United States",
+   "f_TPR": "r86400"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4490811836",
+    "title": "Senior Software Engineer - Appian Platform",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4482262128",
+    "title": "Senior Full Stack Engineer",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4483644983",
+    "title": "Software Engineer II - CIAM",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4490844510",
+    "title": "Software Engineer",
+    "company": "Epsilon",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4491421874",
+    "title": "Senior Software Engineer, Backend (Continuous Delivery)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4491180709",
+    "title": "Full Stack Software Engineer",
+    "company": "Corgi",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4482196715",
+    "title": "Senior Software Engineer (Front-end Development/Full Stack)",
+    "company": "U.S. Bank",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4492014912",
+    "title": "Software Engineer II - Full-stack Developer with Anthropic Experience",
+    "company": "Deloitte",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4490469967",
+    "title": "Senior Rust Software Engineer",
+    "company": "Jobot",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4484422593",
+    "title": "Senior, Full Stack Engineer - Tax Transformation",
+    "company": "Deloitte",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   }
+  ]
+ },
+ "tpr_week": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Chicago, Illinois, United States",
+   "f_TPR": "r604800"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4483303207",
+    "title": "Software Engineer III - Golang",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-14"
+   },
+   {
+    "id": "4490811836",
+    "title": "Senior Software Engineer - Appian Platform",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4482262128",
+    "title": "Senior Full Stack Engineer",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4483259527",
+    "title": "Senior Software Engineer, Backend (AI Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4456262858",
+    "title": "Software Engineer II, Fullstack (App Experience)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-15"
+   },
+   {
+    "id": "4482672622",
+    "title": "Software Engineer III - Golang (Commercial & Investment Bank)",
+    "company": "Archer",
+    "loc": "Chicago, IL",
+    "date": "2026-11-15"
+   },
+   {
+    "id": "4491847948",
+    "title": "Senior Software Engineer - Go SDK - Language Clients",
+    "company": "ClickHouse",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4472382275",
+    "title": "Staff Software Engineer, Backend (Search)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-12"
+   },
+   {
+    "id": "4483644983",
+    "title": "Software Engineer II - CIAM",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4472361935",
+    "title": "Senior Software Engineer, Backend (Online Storage)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-12"
+   }
+  ]
+ },
+ "sort_dd": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Chicago, Illinois, United States",
+   "sortBy": "DD"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4479191849",
+    "title": "Software Engineer I, Fullstack (Search)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4476876471",
+    "title": "Software Engineer II, Fullstack (Ads Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4483303207",
+    "title": "Software Engineer III - Golang",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-14"
+   },
+   {
+    "id": "4490811836",
+    "title": "Senior Software Engineer - Appian Platform",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4482262128",
+    "title": "Senior Full Stack Engineer",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4487714333",
+    "title": "Software Engineer Full Stack / Backend I (Full Time) - United States",
+    "company": "Cisco",
+    "loc": "Chicago, IL",
+    "date": "2026-11-05"
+   },
+   {
+    "id": "4478018450",
+    "title": "Software Engineer III - Java / Kafka",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4482672622",
+    "title": "Software Engineer III - Golang (Commercial & Investment Bank)",
+    "company": "Archer",
+    "loc": "Chicago, IL",
+    "date": "2026-11-15"
+   },
+   {
+    "id": "4488697836",
+    "title": "Senior Software Engineer, Backend (Consumer)",
+    "company": "Tech Ladies\u00ae",
+    "loc": "Chicago, IL",
+    "date": "2026-11-11"
+   },
+   {
+    "id": "4459898569",
+    "title": "Senior Software Engineer, Platform/Backend",
+    "company": "SentiLink",
+    "loc": "Chicago, IL",
+    "date": "2026-11-01"
+   }
+  ]
+ },
+ "sort_r": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Chicago, Illinois, United States",
+   "sortBy": "R"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4479191849",
+    "title": "Software Engineer I, Fullstack (Search)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4476876471",
+    "title": "Software Engineer II, Fullstack (Ads Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4483303207",
+    "title": "Software Engineer III - Golang",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-14"
+   },
+   {
+    "id": "4490811836",
+    "title": "Senior Software Engineer - Appian Platform",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4482262128",
+    "title": "Senior Full Stack Engineer",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4487714333",
+    "title": "Software Engineer Full Stack / Backend I (Full Time) - United States",
+    "company": "Cisco",
+    "loc": "Chicago, IL",
+    "date": "2026-11-05"
+   },
+   {
+    "id": "4478018450",
+    "title": "Software Engineer III - Java / Kafka",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4482672622",
+    "title": "Software Engineer III - Golang (Commercial & Investment Bank)",
+    "company": "Archer",
+    "loc": "Chicago, IL",
+    "date": "2026-11-15"
+   },
+   {
+    "id": "4488697836",
+    "title": "Senior Software Engineer, Backend (Consumer)",
+    "company": "Tech Ladies\u00ae",
+    "loc": "Chicago, IL",
+    "date": "2026-11-11"
+   },
+   {
+    "id": "4459898569",
+    "title": "Senior Software Engineer, Platform/Backend",
+    "company": "SentiLink",
+    "loc": "Chicago, IL",
+    "date": "2026-11-01"
+   }
+  ]
+ },
+ "loc_austin": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Austin, Texas, United States"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4479305222",
+    "title": "Software Engineer I, Fullstack (Search)",
+    "company": "Affirm",
+    "loc": "Austin, TX",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4481285724",
+    "title": "Software Engineer \u2013 Backend Platforms, Assistant Vice President (Wealth Custody & Clearing)",
+    "company": "State Street",
+    "loc": "Austin, TX",
+    "date": "2026-10-28"
+   },
+   {
+    "id": "4490835827",
+    "title": "Software Engineer II - Java Fullstack / AWS",
+    "company": "JPMorganChase",
+    "loc": "Austin, TX",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4491711147",
+    "title": "Senior Backend Software Engineer - GM Energy",
+    "company": "General Motors",
+    "loc": "Austin, TX",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4476876467",
+    "title": "Software Engineer II, Fullstack (Ads Platform)",
+    "company": "Affirm",
+    "loc": "Austin, TX",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4486064337",
+    "title": "Software Engineer II, Fullstack (Capital Orchestration)",
+    "company": "Affirm",
+    "loc": "Austin, TX",
+    "date": "2026-11-03"
+   },
+   {
+    "id": "4455597270",
+    "title": "Software Engineer III - Java Fullstack / AWS",
+    "company": "JPMorganChase",
+    "loc": "Austin, TX",
+    "date": "2026-11-10"
+   },
+   {
+    "id": "4481157490",
+    "title": "Senior Software Engineer - Storefront Services Team",
+    "company": "Commerce",
+    "loc": "Austin, TX",
+    "date": "2026-11-12"
+   },
+   {
+    "id": "4476887121",
+    "title": "Senior Software Engineer, Fullstack (App Experience)",
+    "company": "Affirm",
+    "loc": "Austin, TX",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4491112179",
+    "title": "Sr Software Engineer, Venmo Platform",
+    "company": "PayPal",
+    "loc": "Austin, TX",
+    "date": "2026-11-17"
+   }
+  ]
+ },
+ "geo_only": {
+  "params": {
+   "keywords": "software engineer",
+   "geoId": "103112676"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4479191849",
+    "title": "Software Engineer I, Fullstack (Search)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4476876471",
+    "title": "Software Engineer II, Fullstack (Ads Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4486053639",
+    "title": "Software Engineer II, Fullstack (Capital Orchestration)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-03"
+   },
+   {
+    "id": "4483303207",
+    "title": "Software Engineer III - Golang",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-14"
+   },
+   {
+    "id": "4490811836",
+    "title": "Senior Software Engineer - Appian Platform",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4476887123",
+    "title": "Senior Software Engineer, Fullstack (App Experience)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4482262128",
+    "title": "Senior Full Stack Engineer",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4483259527",
+    "title": "Senior Software Engineer, Backend (AI Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4478018450",
+    "title": "Software Engineer III - Java / Kafka",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4456262858",
+    "title": "Software Engineer II, Fullstack (App Experience)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-15"
+   }
+  ]
+ },
+ "geo_austin": {
+  "params": {
+   "keywords": "software engineer",
+   "geoId": "90000064"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4479305222",
+    "title": "Software Engineer I, Fullstack (Search)",
+    "company": "Affirm",
+    "loc": "Austin, TX",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4481285724",
+    "title": "Software Engineer \u2013 Backend Platforms, Assistant Vice President (Wealth Custody & Clearing)",
+    "company": "State Street",
+    "loc": "Austin, TX",
+    "date": "2026-10-28"
+   },
+   {
+    "id": "4490835827",
+    "title": "Software Engineer II - Java Fullstack / AWS",
+    "company": "JPMorganChase",
+    "loc": "Austin, TX",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4491711147",
+    "title": "Senior Backend Software Engineer - GM Energy",
+    "company": "General Motors",
+    "loc": "Austin, TX",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4476876467",
+    "title": "Software Engineer II, Fullstack (Ads Platform)",
+    "company": "Affirm",
+    "loc": "Austin, TX",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4455597270",
+    "title": "Software Engineer III - Java Fullstack / AWS",
+    "company": "JPMorganChase",
+    "loc": "Austin, TX",
+    "date": "2026-11-10"
+   },
+   {
+    "id": "4481157490",
+    "title": "Senior Software Engineer - Storefront Services Team",
+    "company": "Commerce",
+    "loc": "Austin, TX",
+    "date": "2026-11-12"
+   },
+   {
+    "id": "4491112179",
+    "title": "Sr Software Engineer, Venmo Platform",
+    "company": "PayPal",
+    "loc": "Austin, TX",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4474838389",
+    "title": "Software Developer 3",
+    "company": "Oracle",
+    "loc": "Austin, TX",
+    "date": "2026-10-30"
+   },
+   {
+    "id": "4479255988",
+    "title": "Senior Software Engineer - Access & Authorization (Platform)",
+    "company": "Coinbase",
+    "loc": "Austin, TX",
+    "date": "2026-11-04"
+   }
+  ]
+ },
+ "dist5": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Chicago, Illinois, United States",
+   "distance": "5"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4479191849",
+    "title": "Software Engineer I, Fullstack (Search)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4476876471",
+    "title": "Software Engineer II, Fullstack (Ads Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4486053639",
+    "title": "Software Engineer II, Fullstack (Capital Orchestration)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-03"
+   },
+   {
+    "id": "4483303207",
+    "title": "Software Engineer III - Golang",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-14"
+   },
+   {
+    "id": "4490811836",
+    "title": "Senior Software Engineer - Appian Platform",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4476887123",
+    "title": "Senior Software Engineer, Fullstack (App Experience)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4482262128",
+    "title": "Senior Full Stack Engineer",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4483259527",
+    "title": "Senior Software Engineer, Backend (AI Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4478018450",
+    "title": "Software Engineer III - Java / Kafka",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4456262858",
+    "title": "Software Engineer II, Fullstack (App Experience)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-15"
+   }
+  ]
+ },
+ "dist100": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Chicago, Illinois, United States",
+   "distance": "100"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4479191849",
+    "title": "Software Engineer I, Fullstack (Search)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4476876471",
+    "title": "Software Engineer II, Fullstack (Ads Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4486053639",
+    "title": "Software Engineer II, Fullstack (Capital Orchestration)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-03"
+   },
+   {
+    "id": "4483303207",
+    "title": "Software Engineer III - Golang",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-14"
+   },
+   {
+    "id": "4490811836",
+    "title": "Senior Software Engineer - Appian Platform",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4476887123",
+    "title": "Senior Software Engineer, Fullstack (App Experience)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4482262128",
+    "title": "Senior Full Stack Engineer",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4483259527",
+    "title": "Senior Software Engineer, Backend (AI Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4478018450",
+    "title": "Software Engineer III - Java / Kafka",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4456262858",
+    "title": "Software Engineer II, Fullstack (App Experience)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-15"
+   }
+  ]
+ },
+ "kw_quote": {
+  "params": {
+   "keywords": "\"site reliability\"",
+   "location": "Chicago, Illinois, United States"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4476575716",
+    "title": "Site Reliability Engineer III",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4490185601",
+    "title": "Site Reliability Engineer II-Production Engineer",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4488147080",
+    "title": "Software Engineer III - Performance and Resiliency Engineering",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4472263755",
+    "title": "Lead Software Engineer",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-07"
+   },
+   {
+    "id": "4461139792",
+    "title": "Site Reliability Engineer III",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-07"
+   },
+   {
+    "id": "4469296188",
+    "title": "Senior Site Reliability Engineer",
+    "company": "Fingerprint",
+    "loc": "Chicago, IL",
+    "date": "2026-09-19"
+   },
+   {
+    "id": "4455976468",
+    "title": "Site Reliability Engineer III (Multiple Openings)",
+    "company": "CME Group",
+    "loc": "Chicago, IL",
+    "date": "2026-11-13"
+   },
+   {
+    "id": "4477774793",
+    "title": "Site Reliability Engineer",
+    "company": "Charles Schwab",
+    "loc": "Chicago, IL",
+    "date": "2026-10-17"
+   },
+   {
+    "id": "4487253530",
+    "title": "Sr. Site Reliability Engineer - Digital Assets",
+    "company": "Early Warning",
+    "loc": "Chicago, IL",
+    "date": "2026-11-04"
+   },
+   {
+    "id": "4477181737",
+    "title": "Site Reliability Engineer 4 (Cloud Operations Resilience Engineering)",
+    "company": "Capital One",
+    "loc": "Deerfield, IL",
+    "date": "2026-10-29"
+   }
+  ]
+ },
+ "kw_or": {
+  "params": {
+   "keywords": "golang OR rust",
+   "location": "Chicago, Illinois, United States"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4491847948",
+    "title": "Senior Software Engineer - Go SDK - Language Clients",
+    "company": "ClickHouse",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4482709522",
+    "title": "Senior Software Engineer, Observability",
+    "company": "Roku",
+    "loc": "Chicago, IL",
+    "date": "2026-11-13"
+   },
+   {
+    "id": "4482672622",
+    "title": "Software Engineer III - Golang (Commercial & Investment Bank)",
+    "company": "Archer",
+    "loc": "Chicago, IL",
+    "date": "2026-11-15"
+   },
+   {
+    "id": "4488459822",
+    "title": "Senior Software Engineer (SRE), Infrastructure Security",
+    "company": "MongoDB",
+    "loc": "Chicago, IL",
+    "date": "2026-11-07"
+   },
+   {
+    "id": "4482190308",
+    "title": "Security Engineer, Product Security",
+    "company": "Chainlink Labs",
+    "loc": "Chicago, IL",
+    "date": "2026-11-12"
+   },
+   {
+    "id": "4477822969",
+    "title": "Senior Software Engineer",
+    "company": "DomainTools",
+    "loc": "Chicago, IL",
+    "date": "2026-09-14"
+   },
+   {
+    "id": "4483303207",
+    "title": "Software Engineer III - Golang",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-14"
+   },
+   {
+    "id": "4441416520",
+    "title": "Senior/Staff Backend Engineer, Platform, Consumer Apps - Klover",
+    "company": "Attain",
+    "loc": "Chicago, IL",
+    "date": "2026-07-16"
+   },
+   {
+    "id": "4474347178",
+    "title": "Technical Leader, SRE/Go development",
+    "company": "Cisco",
+    "loc": "Chicago, IL",
+    "date": "2026-11-13"
+   },
+   {
+    "id": "4477088758",
+    "title": "Senior Software Engineer",
+    "company": "zerohash",
+    "loc": "Chicago, IL",
+    "date": "2026-10-15"
+   }
+  ]
+ },
+ "kw_not": {
+  "params": {
+   "keywords": "engineer NOT senior",
+   "location": "Chicago, Illinois, United States"
+  },
+  "code": 429,
+  "cards": []
+ }
+}

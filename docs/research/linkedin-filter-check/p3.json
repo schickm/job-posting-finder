@@ -1,0 +1,624 @@
+{
+ "jt_C": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Chicago, Illinois, United States",
+   "f_JT": "C"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4479191849",
+    "title": "Software Engineer I, Fullstack (Search)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4476876471",
+    "title": "Software Engineer II, Fullstack (Ads Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4483303207",
+    "title": "Software Engineer III - Golang",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-14"
+   },
+   {
+    "id": "4490811836",
+    "title": "Senior Software Engineer - Appian Platform",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4482262128",
+    "title": "Senior Full Stack Engineer",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4487714333",
+    "title": "Software Engineer Full Stack / Backend I (Full Time) - United States",
+    "company": "Cisco",
+    "loc": "Chicago, IL",
+    "date": "2026-11-05"
+   },
+   {
+    "id": "4478018450",
+    "title": "Software Engineer III - Java / Kafka",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4482672622",
+    "title": "Software Engineer III - Golang (Commercial & Investment Bank)",
+    "company": "Archer",
+    "loc": "Chicago, IL",
+    "date": "2026-11-15"
+   },
+   {
+    "id": "4488697836",
+    "title": "Senior Software Engineer, Backend (Consumer)",
+    "company": "Tech Ladies\u00ae",
+    "loc": "Chicago, IL",
+    "date": "2026-11-11"
+   },
+   {
+    "id": "4459898569",
+    "title": "Senior Software Engineer, Platform/Backend",
+    "company": "SentiLink",
+    "loc": "Chicago, IL",
+    "date": "2026-11-01"
+   }
+  ]
+ },
+ "jt_I": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Chicago, Illinois, United States",
+   "f_JT": "I"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4479191849",
+    "title": "Software Engineer I, Fullstack (Search)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4476876471",
+    "title": "Software Engineer II, Fullstack (Ads Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4483303207",
+    "title": "Software Engineer III - Golang",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-14"
+   },
+   {
+    "id": "4490811836",
+    "title": "Senior Software Engineer - Appian Platform",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4482262128",
+    "title": "Senior Full Stack Engineer",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4487714333",
+    "title": "Software Engineer Full Stack / Backend I (Full Time) - United States",
+    "company": "Cisco",
+    "loc": "Chicago, IL",
+    "date": "2026-11-05"
+   },
+   {
+    "id": "4478018450",
+    "title": "Software Engineer III - Java / Kafka",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4482672622",
+    "title": "Software Engineer III - Golang (Commercial & Investment Bank)",
+    "company": "Archer",
+    "loc": "Chicago, IL",
+    "date": "2026-11-15"
+   },
+   {
+    "id": "4488697836",
+    "title": "Senior Software Engineer, Backend (Consumer)",
+    "company": "Tech Ladies\u00ae",
+    "loc": "Chicago, IL",
+    "date": "2026-11-11"
+   },
+   {
+    "id": "4459898569",
+    "title": "Senior Software Engineer, Platform/Backend",
+    "company": "SentiLink",
+    "loc": "Chicago, IL",
+    "date": "2026-11-01"
+   }
+  ]
+ },
+ "sb_7": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Chicago, Illinois, United States",
+   "f_SB2": "7"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4479191849",
+    "title": "Software Engineer I, Fullstack (Search)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4476876471",
+    "title": "Software Engineer II, Fullstack (Ads Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4483303207",
+    "title": "Software Engineer III - Golang",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-14"
+   },
+   {
+    "id": "4490811836",
+    "title": "Senior Software Engineer - Appian Platform",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4482262128",
+    "title": "Senior Full Stack Engineer",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4487714333",
+    "title": "Software Engineer Full Stack / Backend I (Full Time) - United States",
+    "company": "Cisco",
+    "loc": "Chicago, IL",
+    "date": "2026-11-05"
+   },
+   {
+    "id": "4478018450",
+    "title": "Software Engineer III - Java / Kafka",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4482672622",
+    "title": "Software Engineer III - Golang (Commercial & Investment Bank)",
+    "company": "Archer",
+    "loc": "Chicago, IL",
+    "date": "2026-11-15"
+   },
+   {
+    "id": "4488697836",
+    "title": "Senior Software Engineer, Backend (Consumer)",
+    "company": "Tech Ladies\u00ae",
+    "loc": "Chicago, IL",
+    "date": "2026-11-11"
+   },
+   {
+    "id": "4459898569",
+    "title": "Senior Software Engineer, Platform/Backend",
+    "company": "SentiLink",
+    "loc": "Chicago, IL",
+    "date": "2026-11-01"
+   }
+  ]
+ },
+ "nap_d0": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Naperville, Illinois, United States",
+   "distance": "0"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4482855272",
+    "title": "Senior Software Engineer",
+    "company": "Optum",
+    "loc": "Naperville, IL",
+    "date": "2026-10-23"
+   },
+   {
+    "id": "4472772087",
+    "title": "Senior Software Engineer - Digital and Web",
+    "company": "Oncourse Home Solutions",
+    "loc": "Naperville, IL",
+    "date": "2026-11-10"
+   },
+   {
+    "id": "4485609980",
+    "title": "SAP BTP Developer",
+    "company": "Sourcebooks",
+    "loc": "Naperville, IL",
+    "date": "2026-10-30"
+   },
+   {
+    "id": "4483594724",
+    "title": "Principal AI Platform Engineer",
+    "company": "Compeer Financial",
+    "loc": "Naperville, IL",
+    "date": "2026-10-27"
+   },
+   {
+    "id": "4471263289",
+    "title": "Senior Engineer",
+    "company": "Tata Consultancy Services",
+    "loc": "Naperville, IL",
+    "date": "2026-11-12"
+   },
+   {
+    "id": "4489296581",
+    "title": "Software Engineer (Industrial Automation/Robotics; $100-125K)",
+    "company": "#twiceasnice Recruiting",
+    "loc": "Naperville, IL",
+    "date": "2026-11-12"
+   },
+   {
+    "id": "4476790412",
+    "title": "Senior Platform Engineer",
+    "company": "Talener",
+    "loc": "Naperville, IL",
+    "date": "2026-10-29"
+   },
+   {
+    "id": "4492055378",
+    "title": "JDE EnterpriseOne Technical Consultant | Contract",
+    "company": "ennVee TechnoGroup Inc",
+    "loc": "Naperville, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4485850596",
+    "title": "Optimizely / ,NET Developer",
+    "company": "Objective Partners",
+    "loc": "Naperville, IL",
+    "date": "2026-11-05"
+   },
+   {
+    "id": "4487782678",
+    "title": "Optimizely / ,NET Developer",
+    "company": "Talution Group",
+    "loc": "Naperville, IL",
+    "date": "2026-11-05"
+   }
+  ]
+ },
+ "nap_d50": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Naperville, Illinois, United States",
+   "distance": "50"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4479191849",
+    "title": "Software Engineer I, Fullstack (Search)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4476876471",
+    "title": "Software Engineer II, Fullstack (Ads Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4486053639",
+    "title": "Software Engineer II, Fullstack (Capital Orchestration)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-03"
+   },
+   {
+    "id": "4483303207",
+    "title": "Software Engineer III - Golang",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-14"
+   },
+   {
+    "id": "4490811836",
+    "title": "Senior Software Engineer - Appian Platform",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4476887123",
+    "title": "Senior Software Engineer, Fullstack (App Experience)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4482262128",
+    "title": "Senior Full Stack Engineer",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4483259527",
+    "title": "Senior Software Engineer, Backend (AI Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4478018450",
+    "title": "Software Engineer III - Java / Kafka",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4456262858",
+    "title": "Software Engineer II, Fullstack (App Experience)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-15"
+   }
+  ]
+ },
+ "pub_wt2": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Chicago, Illinois, United States",
+   "f_WT": "2"
+  },
+  "code": 200,
+  "ids": [
+   "4479191849",
+   "4476876471",
+   "4483303207",
+   "4490811836",
+   "4482262128",
+   "4487714333",
+   "4478018450",
+   "4482672622",
+   "4488697836",
+   "4459898569",
+   "4481502658",
+   "4487315647",
+   "4487917392",
+   "4486453297",
+   "4470987355",
+   "4489291873",
+   "4477857714",
+   "4477088758",
+   "4483223269",
+   "4484789908",
+   "4480277814",
+   "4491001157",
+   "4477317614",
+   "4490388743",
+   "4487557007",
+   "4453734725",
+   "4454556315",
+   "4485056396",
+   "4490844510",
+   "4488003115",
+   "4488008639",
+   "4485651330",
+   "4478561835",
+   "4485327912",
+   "4479766459",
+   "4427032399",
+   "4480167921",
+   "4427790656",
+   "4426674083",
+   "4480167916",
+   "4483576816",
+   "4456742968",
+   "4475051101",
+   "4408118118",
+   "4485148332",
+   "4488428542",
+   "4491180709",
+   "4462770634",
+   "4489773571",
+   "4467923281",
+   "4486808770",
+   "4468075085",
+   "4483409859",
+   "4488888511",
+   "4485278468",
+   "4429491310",
+   "4483909450",
+   "4485149220",
+   "4453740875",
+   "4488005837"
+  ],
+  "count": "4,000+",
+  "pills": [
+   "Distance filter. 25 miles (40 km) filter is currently applied. Clicking this button displays all Distance filter options."
+  ]
+ },
+ "pub_e5": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Chicago, Illinois, United States",
+   "f_E": "5"
+  },
+  "code": 200,
+  "ids": [
+   "4479191849",
+   "4476876471",
+   "4483303207",
+   "4490811836",
+   "4482262128",
+   "4487714333",
+   "4478018450",
+   "4482672622",
+   "4488697836",
+   "4459898569",
+   "4481502658",
+   "4487315647",
+   "4487917392",
+   "4486453297",
+   "4470987355",
+   "4489291873",
+   "4477857714",
+   "4477088758",
+   "4483223269",
+   "4484789908",
+   "4480277814",
+   "4491001157",
+   "4477317614",
+   "4490388743",
+   "4487557007",
+   "4453734725",
+   "4454556315",
+   "4485056396",
+   "4490844510",
+   "4488003115",
+   "4488008639",
+   "4485651330",
+   "4478561835",
+   "4485327912",
+   "4479766459",
+   "4427032399",
+   "4480167921",
+   "4427790656",
+   "4426674083",
+   "4480167916",
+   "4483576816",
+   "4456742968",
+   "4475051101",
+   "4408118118",
+   "4485148332",
+   "4488428542",
+   "4491180709",
+   "4462770634",
+   "4489773571",
+   "4467923281",
+   "4486808770",
+   "4468075085",
+   "4483409859",
+   "4488888511",
+   "4485278468",
+   "4429491310",
+   "4483909450",
+   "4485149220",
+   "4453740875",
+   "4488005837"
+  ],
+  "count": "4,000+",
+  "pills": [
+   "Distance filter. 25 miles (40 km) filter is currently applied. Clicking this button displays all Distance filter options."
+  ]
+ },
+ "pub_dd": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Chicago, Illinois, United States",
+   "sortBy": "DD"
+  },
+  "code": 200,
+  "ids": [
+   "4479191849",
+   "4476876471",
+   "4483303207",
+   "4490811836",
+   "4482262128",
+   "4487714333",
+   "4478018450",
+   "4482672622",
+   "4488697836",
+   "4459898569",
+   "4481502658",
+   "4487315647",
+   "4487917392",
+   "4486453297",
+   "4470987355",
+   "4489291873",
+   "4477857714",
+   "4477088758",
+   "4483223269",
+   "4484789908",
+   "4480277814",
+   "4491001157",
+   "4477317614",
+   "4490388743",
+   "4487557007",
+   "4453734725",
+   "4454556315",
+   "4485056396",
+   "4490844510",
+   "4488003115",
+   "4488008639",
+   "4485651330",
+   "4478561835",
+   "4485327912",
+   "4479766459",
+   "4427032399",
+   "4480167921",
+   "4427790656",
+   "4426674083",
+   "4480167916",
+   "4483576816",
+   "4456742968",
+   "4475051101",
+   "4408118118",
+   "4485148332",
+   "4488428542",
+   "4491180709",
+   "4462770634",
+   "4489773571",
+   "4467923281",
+   "4486808770",
+   "4468075085",
+   "4483409859",
+   "4488888511",
+   "4485278468",
+   "4429491310",
+   "4483909450",
+   "4485149220",
+   "4453740875",
+   "4488005837"
+  ],
+  "count": "4,000+",
+  "pills": [
+   "Distance filter. 25 miles (40 km) filter is currently applied. Clicking this button displays all Distance filter options."
+  ]
+ }
+}

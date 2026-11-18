@@ -1,0 +1,643 @@
+{
+ "kw_not": {
+  "params": {
+   "keywords": "engineer NOT senior",
+   "location": "Chicago, Illinois, United States"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4489760145",
+    "title": "Graduate Plumbing Engineer (Available 2027)",
+    "company": "Arup",
+    "loc": "Chicago, IL",
+    "date": "2026-11-16"
+   },
+   {
+    "id": "4487929243",
+    "title": "New Grad C++ Software Engineer",
+    "company": "Wolverine Trading",
+    "loc": "Chicago, IL",
+    "date": "2026-11-09"
+   },
+   {
+    "id": "4484974689",
+    "title": "Engine Installation Engineer",
+    "company": "CNH",
+    "loc": "Oak Brook, IL",
+    "date": "2026-10-29"
+   },
+   {
+    "id": "4479191849",
+    "title": "Software Engineer I, Fullstack (Search)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4489756249",
+    "title": "Graduate Mechanical Engineer (Available 2027)",
+    "company": "Arup",
+    "loc": "Chicago, IL",
+    "date": "2026-11-16"
+   },
+   {
+    "id": "4371731735",
+    "title": "Entry Level Mechanical Engineer",
+    "company": "dbHMS",
+    "loc": "Chicago, IL",
+    "date": "2026-02-13"
+   },
+   {
+    "id": "4489519878",
+    "title": "Software Engineer I, Backend (Continuous Delivery)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-13"
+   },
+   {
+    "id": "4481469951",
+    "title": "Associate Mechanical Engineer- Structures",
+    "company": "Lanco Group of Companies",
+    "loc": "Hazel Crest, IL",
+    "date": "2026-10-26"
+   },
+   {
+    "id": "4489621920",
+    "title": "Early-Career Manufacturing Engineer \u2014 CNC & Gear Machining",
+    "company": "Reliance Gear Corporation",
+    "loc": "Elmhurst, IL",
+    "date": "2026-11-10"
+   },
+   {
+    "id": "4488245872",
+    "title": "Electrical Engineer",
+    "company": "UL Solutions",
+    "loc": "Northbrook, IL",
+    "date": "2026-11-11"
+   }
+  ]
+ },
+ "wt_1": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Chicago, Illinois, United States",
+   "f_WT": "1"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4479191849",
+    "title": "Software Engineer I, Fullstack (Search)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4476876471",
+    "title": "Software Engineer II, Fullstack (Ads Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4483303207",
+    "title": "Software Engineer III - Golang",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-14"
+   },
+   {
+    "id": "4490811836",
+    "title": "Senior Software Engineer - Appian Platform",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4482262128",
+    "title": "Senior Full Stack Engineer",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4487714333",
+    "title": "Software Engineer Full Stack / Backend I (Full Time) - United States",
+    "company": "Cisco",
+    "loc": "Chicago, IL",
+    "date": "2026-11-05"
+   },
+   {
+    "id": "4478018450",
+    "title": "Software Engineer III - Java / Kafka",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4482672622",
+    "title": "Software Engineer III - Golang (Commercial & Investment Bank)",
+    "company": "Archer",
+    "loc": "Chicago, IL",
+    "date": "2026-11-15"
+   },
+   {
+    "id": "4488697836",
+    "title": "Senior Software Engineer, Backend (Consumer)",
+    "company": "Tech Ladies\u00ae",
+    "loc": "Chicago, IL",
+    "date": "2026-11-11"
+   },
+   {
+    "id": "4459898569",
+    "title": "Senior Software Engineer, Platform/Backend",
+    "company": "SentiLink",
+    "loc": "Chicago, IL",
+    "date": "2026-11-01"
+   }
+  ]
+ },
+ "wt_2": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Chicago, Illinois, United States",
+   "f_WT": "2"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4479191849",
+    "title": "Software Engineer I, Fullstack (Search)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4476876471",
+    "title": "Software Engineer II, Fullstack (Ads Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4483303207",
+    "title": "Software Engineer III - Golang",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-14"
+   },
+   {
+    "id": "4490811836",
+    "title": "Senior Software Engineer - Appian Platform",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4482262128",
+    "title": "Senior Full Stack Engineer",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4487714333",
+    "title": "Software Engineer Full Stack / Backend I (Full Time) - United States",
+    "company": "Cisco",
+    "loc": "Chicago, IL",
+    "date": "2026-11-05"
+   },
+   {
+    "id": "4478018450",
+    "title": "Software Engineer III - Java / Kafka",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4482672622",
+    "title": "Software Engineer III - Golang (Commercial & Investment Bank)",
+    "company": "Archer",
+    "loc": "Chicago, IL",
+    "date": "2026-11-15"
+   },
+   {
+    "id": "4488697836",
+    "title": "Senior Software Engineer, Backend (Consumer)",
+    "company": "Tech Ladies\u00ae",
+    "loc": "Chicago, IL",
+    "date": "2026-11-11"
+   },
+   {
+    "id": "4459898569",
+    "title": "Senior Software Engineer, Platform/Backend",
+    "company": "SentiLink",
+    "loc": "Chicago, IL",
+    "date": "2026-11-01"
+   }
+  ]
+ },
+ "wt_3": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Chicago, Illinois, United States",
+   "f_WT": "3"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4479191849",
+    "title": "Software Engineer I, Fullstack (Search)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4476876471",
+    "title": "Software Engineer II, Fullstack (Ads Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4483303207",
+    "title": "Software Engineer III - Golang",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-14"
+   },
+   {
+    "id": "4490811836",
+    "title": "Senior Software Engineer - Appian Platform",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4482262128",
+    "title": "Senior Full Stack Engineer",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4487714333",
+    "title": "Software Engineer Full Stack / Backend I (Full Time) - United States",
+    "company": "Cisco",
+    "loc": "Chicago, IL",
+    "date": "2026-11-05"
+   },
+   {
+    "id": "4478018450",
+    "title": "Software Engineer III - Java / Kafka",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4482672622",
+    "title": "Software Engineer III - Golang (Commercial & Investment Bank)",
+    "company": "Archer",
+    "loc": "Chicago, IL",
+    "date": "2026-11-15"
+   },
+   {
+    "id": "4488697836",
+    "title": "Senior Software Engineer, Backend (Consumer)",
+    "company": "Tech Ladies\u00ae",
+    "loc": "Chicago, IL",
+    "date": "2026-11-11"
+   },
+   {
+    "id": "4459898569",
+    "title": "Senior Software Engineer, Platform/Backend",
+    "company": "SentiLink",
+    "loc": "Chicago, IL",
+    "date": "2026-11-01"
+   }
+  ]
+ },
+ "wt_1,2": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Chicago, Illinois, United States",
+   "f_WT": "1,2"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4479191849",
+    "title": "Software Engineer I, Fullstack (Search)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4476876471",
+    "title": "Software Engineer II, Fullstack (Ads Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4483303207",
+    "title": "Software Engineer III - Golang",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-14"
+   },
+   {
+    "id": "4490811836",
+    "title": "Senior Software Engineer - Appian Platform",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4482262128",
+    "title": "Senior Full Stack Engineer",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4487714333",
+    "title": "Software Engineer Full Stack / Backend I (Full Time) - United States",
+    "company": "Cisco",
+    "loc": "Chicago, IL",
+    "date": "2026-11-05"
+   },
+   {
+    "id": "4478018450",
+    "title": "Software Engineer III - Java / Kafka",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4482672622",
+    "title": "Software Engineer III - Golang (Commercial & Investment Bank)",
+    "company": "Archer",
+    "loc": "Chicago, IL",
+    "date": "2026-11-15"
+   },
+   {
+    "id": "4488697836",
+    "title": "Senior Software Engineer, Backend (Consumer)",
+    "company": "Tech Ladies\u00ae",
+    "loc": "Chicago, IL",
+    "date": "2026-11-11"
+   },
+   {
+    "id": "4459898569",
+    "title": "Senior Software Engineer, Platform/Backend",
+    "company": "SentiLink",
+    "loc": "Chicago, IL",
+    "date": "2026-11-01"
+   }
+  ]
+ },
+ "wt_2_det": {
+  "4479191849": {
+   "code": 200,
+   "crit": {
+    "Seniority level": "Mid-Senior level",
+    "Employment type": "Volunteer",
+    "Industries": "Financial Services"
+   },
+   "salary": null,
+   "desc": "At Affirm, we exist for the moments that matter\u2014giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.Search has become the default way consumers discover where to shop, compare options, and decide what to buy across platforms like Google, TikTok, and even Klarna. As we build a new Ads business and evolve Marketplace into a best in class shopping experience, improving search is one of our highest leverage investments to create an experience users choose and merchants want to invest in.What You'll DoWith the support of your team, you will work on tasks that contribute to the team's projects and goals.You will work collaboratively and proactively with your team and stakeholders, bringing them along for your work and helping to create visibility and dialog regarding the risks and trade-offs related to your work.You will strike the right balance of speed and quality in your work, ensuring that we hit our business goals while protecting our systems from downtime.You will contribute to a sense of community on your team by engaging in growth and development activities.What We Look ForYou have previous work or internship experience working with Javascript/Typescript.You have previous work or internship experience designing, developing and launching backend systems at scale and are experienced using Python or Kotlin.You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code.You are comfortable navigating a large code base, debugging others' code, and providing feedback to other engineers through code reviews.Your experience demonstrates that you take ownership of your growth, proactively seeking feedback from your team, your manager, and your stakeholders.You have strong verbal and written communication skills that support effective collaboration with our global engineering team.This position requires either equivalent practical experience or a Bachelor\u2019s degree in a related field.Base Pay Grade - JEquity Grade - 5Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills.Base pay is part of a total compensation package that may include equity rewards, monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents.)USA base pay range (CA, WA, NY, NJ, CT) per year: $130,000 - $180,000USA base pay range (all other U.S. states) per year: $115,000 - $165,000Remote-first with flexibility built inAffirm is proud to be a remote-first company. Most roles can be done from almost anywhere within the country of employment. Some positions may occasionally require in-person work at an Affirm office, and a few are office-based due to the nature of the work. All new hires will be invited to attend an in-person onboarding experience.Benefits Designed For YouOur benefits reflect our commitment to care, transparency, and flexibility. Here are a few highlights:Health coverage at no cost: We cover 100% of premiums for employees and their dependents.Spending stipends: Monthly stipends support your tech setup, and the ability to choose health and wellness options that are right for you.Time off to recharge: Flexible time off and generous holiday calendars help you rest when you need to.Own a piece of what you build: Our employee stock purchase plan (ESPP) lets you buy Affirm stock at a discount.We\u2019re committed to providing an inclusive interview process, including accommodations for candidates with disabilities. If you need support, we\u2019re happy to help.For positions based in San Francisco or Los Angeles: Affirm considers qualified applicants with arrest and conviction records, as required by law.By clicking \"Submit Application,\" you acknowledge that you have read Affirm's Global Candidate Privacy Notice and consent to the use of your personal information as described."
+  },
+  "4476876471": {
+   "code": 200,
+   "crit": {
+    "Seniority level": "Mid-Senior level",
+    "Employment type": "Full-time",
+    "Industries": "Financial Services"
+   },
+   "salary": null,
+   "desc": "At Affirm, we exist for the moments that matter\u2014giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.Our Marketplace is continually evolving to deliver a deeply personalized shopping experience that seamlessly links consumers with merchant partners. By leveraging machine learning alongside rich consumer and merchant data, we aim to simplify and streamline the customer journey around everyday and major purchases with tailored brands, products, deals, and offers. In tandem, we are advancing our Ads Platform which is a key technology that empowers merchant partners to strategically deploy their budgets and reach targeted consumers for maximum incremental impact.What You'll DoWith the support of your team\u2019s tech lead and manager, you will break down larger projects into individual tasks, deliver them in multiple phases, and collaborate with others to ensure timely delivery of your work.You will support your peers and stakeholders in the product development lifecycle by collaborating with product management, design & analytics by participating in ideation, articulating technical constraints, and partnering on decisions that properly consider risks and trade-offs.You will support the operations and availability of your team\u2019s artifacts by creating and monitoring metrics, escalating when needed, and supporting \u201ckeep the lights on\u201d & on-call efforts.You will contribute to a sense of community on your team by engaging in growth and development activities such as participation in the interview process.What We Look ForYou have a total of 1.5+ years of experience as a software engineer.You have experience shipping web apps using declarative UI frameworks like React.You have experience designing, developing and launching APIs at scale using languages like Python or Kotlin.You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code.You are comfortable navigating a large code base, debugging others' code, and providing feedback to other engineers through code reviews.Your experience demonstrates that you take ownership of your growth, proactively seeking feedback from your team, your manager, and your stakeholders.You have strong verbal and written communication skills that support effective collaboration with our global engineering team.This position requires either equivalent practical experience or a Bachelor\u2019s degree in a related field.Base Pay Grade - LEquity Grade - 6Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills.Base pay is part of a total compensation package that may include equity rewards, monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents.)USA base pay range (CA, WA, NY, NJ, CT) per year: $165,000 - $225,000USA base pay range (all other U.S. states) per year: $146,000 - $206,000Remote-first with flexibility built inAffirm is proud to be a remote-first company. Most roles can be done from almost anywhere within the country of employment. Some positions may occasionally require in-person work at an Affirm office, and a few are office-based due to the nature of the work. All new hires will be invited to attend an in-person onboarding experience.Benefits Designed For YouOur benefits reflect our commitment to care, transparency, and flexibility. Here are a few highlights:Health coverage at no cost: We cover 100% of premiums for employees and their dependents.Spending stipends: Monthly stipends support your tech setup, and the ability to choose health and wellness options that are right for you.Time off to recharge: Flexible time off and generous holiday calendars help you rest when you need to.Own a piece of what you build: Our employee stock purchase plan (ESPP) lets you buy Affirm stock at a discount.We\u2019re committed to providing an inclusive interview process, including accommodations for candidates with disabilities. If you need support, we\u2019re happy to help.For positions based in San Francisco or Los Angeles: Affirm considers qualified applicants with arrest and conviction records, as required by law.By clicking \"Submit Application,\" you acknowledge that you have read Affirm's Global Candidate Privacy Notice and consent to the use of your personal information as described."
+  }
+ },
+ "e_2": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Chicago, Illinois, United States",
+   "f_E": "2"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4479191849",
+    "title": "Software Engineer I, Fullstack (Search)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4476876471",
+    "title": "Software Engineer II, Fullstack (Ads Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4486053639",
+    "title": "Software Engineer II, Fullstack (Capital Orchestration)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-03"
+   },
+   {
+    "id": "4483303207",
+    "title": "Software Engineer III - Golang",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-14"
+   },
+   {
+    "id": "4490811836",
+    "title": "Senior Software Engineer - Appian Platform",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4476887123",
+    "title": "Senior Software Engineer, Fullstack (App Experience)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4482262128",
+    "title": "Senior Full Stack Engineer",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4483259527",
+    "title": "Senior Software Engineer, Backend (AI Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4478018450",
+    "title": "Software Engineer III - Java / Kafka",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4456262858",
+    "title": "Software Engineer II, Fullstack (App Experience)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-15"
+   }
+  ]
+ },
+ "e_2_det": {
+  "4479191849": {
+   "code": 200,
+   "crit": {
+    "Seniority level": "Mid-Senior level",
+    "Employment type": "Volunteer",
+    "Industries": "Financial Services"
+   },
+   "salary": null,
+   "desc": "At Affirm, we exist for the moments that matter\u2014giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.Search has become the default way consumers discover where to shop, compare options, and decide what to buy across platforms like Google, TikTok, and even Klarna. As we build a new Ads business and evolve Marketplace into a best in class shopping experience, improving search is one of our highest leverage investments to create an experience users choose and merchants want to invest in.What You'll DoWith the support of your team, you will work on tasks that contribute to the team's projects and goals.You will work collaboratively and proactively with your team and stakeholders, bringing them along for your work and helping to create visibility and dialog regarding the risks and trade-offs related to your work.You will strike the right balance of speed and quality in your work, ensuring that we hit our business goals while protecting our systems from downtime.You will contribute to a sense of community on your team by engaging in growth and development activities.What We Look ForYou have previous work or internship experience working with Javascript/Typescript.You have previous work or internship experience designing, developing and launching backend systems at scale and are experienced using Python or Kotlin.You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code.You are comfortable navigating a large code base, debugging others' code, and providing feedback to other engineers through code reviews.Your experience demonstrates that you take ownership of your growth, proactively seeking feedback from your team, your manager, and your stakeholders.You have strong verbal and written communication skills that support effective collaboration with our global engineering team.This position requires either equivalent practical experience or a Bachelor\u2019s degree in a related field.Base Pay Grade - JEquity Grade - 5Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills.Base pay is part of a total compensation package that may include equity rewards, monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents.)USA base pay range (CA, WA, NY, NJ, CT) per year: $130,000 - $180,000USA base pay range (all other U.S. states) per year: $115,000 - $165,000Remote-first with flexibility built inAffirm is proud to be a remote-first company. Most roles can be done from almost anywhere within the country of employment. Some positions may occasionally require in-person work at an Affirm office, and a few are office-based due to the nature of the work. All new hires will be invited to attend an in-person onboarding experience.Benefits Designed For YouOur benefits reflect our commitment to care, transparency, and flexibility. Here are a few highlights:Health coverage at no cost: We cover 100% of premiums for employees and their dependents.Spending stipends: Monthly stipends support your tech setup, and the ability to choose health and wellness options that are right for you.Time off to recharge: Flexible time off and generous holiday calendars help you rest when you need to.Own a piece of what you build: Our employee stock purchase plan (ESPP) lets you buy Affirm stock at a discount.We\u2019re committed to providing an inclusive interview process, including accommodations for candidates with disabilities. If you need support, we\u2019re happy to help.For positions based in San Francisco or Los Angeles: Affirm considers qualified applicants with arrest and conviction records, as required by law.By clicking \"Submit Application,\" you acknowledge that you have read Affirm's Global Candidate Privacy Notice and consent to the use of your personal information as described."
+  },
+  "4476876471": {
+   "code": 200,
+   "crit": {
+    "Seniority level": "Mid-Senior level",
+    "Employment type": "Full-time",
+    "Industries": "Financial Services"
+   },
+   "salary": null,
+   "desc": "At Affirm, we exist for the moments that matter\u2014giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.Our Marketplace is continually evolving to deliver a deeply personalized shopping experience that seamlessly links consumers with merchant partners. By leveraging machine learning alongside rich consumer and merchant data, we aim to simplify and streamline the customer journey around everyday and major purchases with tailored brands, products, deals, and offers. In tandem, we are advancing our Ads Platform which is a key technology that empowers merchant partners to strategically deploy their budgets and reach targeted consumers for maximum incremental impact.What You'll DoWith the support of your team\u2019s tech lead and manager, you will break down larger projects into individual tasks, deliver them in multiple phases, and collaborate with others to ensure timely delivery of your work.You will support your peers and stakeholders in the product development lifecycle by collaborating with product management, design & analytics by participating in ideation, articulating technical constraints, and partnering on decisions that properly consider risks and trade-offs.You will support the operations and availability of your team\u2019s artifacts by creating and monitoring metrics, escalating when needed, and supporting \u201ckeep the lights on\u201d & on-call efforts.You will contribute to a sense of community on your team by engaging in growth and development activities such as participation in the interview process.What We Look ForYou have a total of 1.5+ years of experience as a software engineer.You have experience shipping web apps using declarative UI frameworks like React.You have experience designing, developing and launching APIs at scale using languages like Python or Kotlin.You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code.You are comfortable navigating a large code base, debugging others' code, and providing feedback to other engineers through code reviews.Your experience demonstrates that you take ownership of your growth, proactively seeking feedback from your team, your manager, and your stakeholders.You have strong verbal and written communication skills that support effective collaboration with our global engineering team.This position requires either equivalent practical experience or a Bachelor\u2019s degree in a related field.Base Pay Grade - LEquity Grade - 6Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills.Base pay is part of a total compensation package that may include equity rewards, monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents.)USA base pay range (CA, WA, NY, NJ, CT) per year: $165,000 - $225,000USA base pay range (all other U.S. states) per year: $146,000 - $206,000Remote-first with flexibility built inAffirm is proud to be a remote-first company. Most roles can be done from almost anywhere within the country of employment. Some positions may occasionally require in-person work at an Affirm office, and a few are office-based due to the nature of the work. All new hires will be invited to attend an in-person onboarding experience.Benefits Designed For YouOur benefits reflect our commitment to care, transparency, and flexibility. Here are a few highlights:Health coverage at no cost: We cover 100% of premiums for employees and their dependents.Spending stipends: Monthly stipends support your tech setup, and the ability to choose health and wellness options that are right for you.Time off to recharge: Flexible time off and generous holiday calendars help you rest when you need to.Own a piece of what you build: Our employee stock purchase plan (ESPP) lets you buy Affirm stock at a discount.We\u2019re committed to providing an inclusive interview process, including accommodations for candidates with disabilities. If you need support, we\u2019re happy to help.For positions based in San Francisco or Los Angeles: Affirm considers qualified applicants with arrest and conviction records, as required by law.By clicking \"Submit Application,\" you acknowledge that you have read Affirm's Global Candidate Privacy Notice and consent to the use of your personal information as described."
+  },
+  "4486053639": {
+   "code": 200,
+   "crit": {
+    "Seniority level": "Mid-Senior level",
+    "Employment type": "Full-time",
+    "Industries": "Financial Services"
+   },
+   "salary": null,
+   "desc": "At Affirm, we exist for the moments that matter\u2014giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.We are looking for a passionate engineer to join our Capital Orchestration team, which is responsible for providing liquidity to Affirm by enabling the sale and collateralization of Affirm loan assets. To achieve this, our team develops a robust and extensible platform for on-demand transactions with low operational risk that scales to billions of dollars of collateral movement each month. In simpler terms, we help ensure Affirm has enough money to originate loans, pay merchants, and continue to grow.What You'll DoBuild a foundational platform enabling us to reconcile each transaction across systems, partners, and cash movements.Build and integrate data pipelines from a variety of products and systems.Build intuitive and thoughtful user experiences to streamline the workflows of our business counterparts.Develop a deep understanding of the capital systems which power and fund Affirm.Partner with engineers on the team to help improve designs, code quality, and testing.Collaborate with product managers and business counterparts to design best-in-class systems and processes.With the support of your team\u2019s tech lead and manager, you will break down larger projects into individual tasks, deliver them in multiple phases, and collaborate with others to ensure timely delivery of your work.You will support your peers and stakeholders in the product development lifecycle by collaborating with product management, design & analytics by participating in ideation, articulating technical constraints, and partnering on decisions that properly consider risks and trade-offs.You will support the operations and availability of your team\u2019s artifacts by creating and monitoring metrics, escalating when needed, and supporting \u201ckeep the lights on\u201d & on-call effortsWhat We Look ForYou have a total of 1.5+ years of experience as a software engineer.Fluency in full stack web development, back end development, event processing, or batch processing.Experience in designing, building, launching, and maintaining products at scale.Strong cross-team communication and collaboration skills.Proficiency with agentic coding.Knowledge of Python, JavaScript/React, Airflow, Spark, Horizon Portal, and SQL is a plus.You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code.You are comfortable navigating a large code base, debugging others' code, and providing feedback to other engineers through code reviews.Your experience demonstrates that you take ownership of your growth, proactively seeking feedback from your team, your manager, and your stakeholders.You have strong verbal and written communication skills that support effective collaboration with our global engineering team.Someone who is proactive, organized, curious, and a self-starter.This position requires either equivalent practical experience or a Bachelor\u2019s degree in a related field.Pay Grade - LEquity Grade - 6Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills.Base pay is part of a total compensation package that may include equity rewards, monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents.)USA base pay range (CA, WA, NY, NJ, CT) per year: $165,000 - 225,000 USDUSA base pay range (all other U.S. states) per year: $146,000 - 206,000 USDAdditional Benefits Include Flexible Spending Wallets for tech, food and lifestyle Away Days - wellness days to take off work and recharge Learning & Development programs Parental benefits Employee Resource & Community GroupsRemote-first with flexibility built inAffirm is proud to be a remote-first company. Most roles can be done from almost anywhere within the country of employment. Some positions may occasionally require in-person work at an Affirm office, and a few are office-based due to the nature of the work. All new hires will be invited to attend an in-person onboarding experience.Benefits Designed For YouOur benefits reflect our commitment to care, transparency, and flexibility. Here are a few highlights:Health coverage at no cost: We cover 100% of premiums for employees and their dependents.Spending stipends: Monthly stipends support your tech setup, and the ability to choose health and wellness options that are right for you.Time off to recharge: Flexible time off and generous holiday calendars help you rest when you need to.Own a piece of what you build: Our employee stock purchase plan (ESPP) lets you buy Affirm stock at a discount.We\u2019re committed to providing an inclusive interview process, including accommodations for candidates with disabilities. If you need support, we\u2019re happy to help.For positions based in San Francisco or Los Angeles: Affirm considers qualified applicants with arrest and conviction records, as required by law.By clicking \"Submit Application,\" you acknowledge that you have read Affirm's Global Candidate Privacy Notice and consent to the use of your personal information as described."
+  }
+ },
+ "e_5": {
+  "params": {
+   "keywords": "software engineer",
+   "location": "Chicago, Illinois, United States",
+   "f_E": "5"
+  },
+  "code": 200,
+  "cards": [
+   {
+    "id": "4479191849",
+    "title": "Software Engineer I, Fullstack (Search)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-11-06"
+   },
+   {
+    "id": "4476876471",
+    "title": "Software Engineer II, Fullstack (Ads Platform)",
+    "company": "Affirm",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4483303207",
+    "title": "Software Engineer III - Golang",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-11-14"
+   },
+   {
+    "id": "4490811836",
+    "title": "Senior Software Engineer - Appian Platform",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-17"
+   },
+   {
+    "id": "4482262128",
+    "title": "Senior Full Stack Engineer",
+    "company": "Humana",
+    "loc": "Chicago, IL",
+    "date": "2026-11-18"
+   },
+   {
+    "id": "4487714333",
+    "title": "Software Engineer Full Stack / Backend I (Full Time) - United States",
+    "company": "Cisco",
+    "loc": "Chicago, IL",
+    "date": "2026-11-05"
+   },
+   {
+    "id": "4478018450",
+    "title": "Software Engineer III - Java / Kafka",
+    "company": "JPMorganChase",
+    "loc": "Chicago, IL",
+    "date": "2026-10-31"
+   },
+   {
+    "id": "4482672622",
+    "title": "Software Engineer III - Golang (Commercial & Investment Bank)",
+    "company": "Archer",
+    "loc": "Chicago, IL",
+    "date": "2026-11-15"
+   },
+   {
+    "id": "4488697836",
+    "title": "Senior Software Engineer, Backend (Consumer)",
+    "company": "Tech Ladies\u00ae",
+    "loc": "Chicago, IL",
+    "date": "2026-11-11"
+   },
+   {
+    "id": "4459898569",
+    "title": "Senior Software Engineer, Platform/Backend",
+    "company": "SentiLink",
+    "loc": "Chicago, IL",
+    "date": "2026-11-01"
+   }
+  ]
+ },
+ "e_5_det": {
+  "4479191849": {
+   "code": 200,
+   "crit": {
+    "Seniority level": "Mid-Senior level",
+    "Employment type": "Volunteer",
+    "Industries": "Financial Services"
+   },
+   "salary": null,
+   "desc": "At Affirm, we exist for the moments that matter\u2014giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.Search has become the default way consumers discover where to shop, compare options, and decide what to buy across platforms like Google, TikTok, and even Klarna. As we build a new Ads business and evolve Marketplace into a best in class shopping experience, improving search is one of our highest leverage investments to create an experience users choose and merchants want to invest in.What You'll DoWith the support of your team, you will work on tasks that contribute to the team's projects and goals.You will work collaboratively and proactively with your team and stakeholders, bringing them along for your work and helping to create visibility and dialog regarding the risks and trade-offs related to your work.You will strike the right balance of speed and quality in your work, ensuring that we hit our business goals while protecting our systems from downtime.You will contribute to a sense of community on your team by engaging in growth and development activities.What We Look ForYou have previous work or internship experience working with Javascript/Typescript.You have previous work or internship experience designing, developing and launching backend systems at scale and are experienced using Python or Kotlin.You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code.You are comfortable navigating a large code base, debugging others' code, and providing feedback to other engineers through code reviews.Your experience demonstrates that you take ownership of your growth, proactively seeking feedback from your team, your manager, and your stakeholders.You have strong verbal and written communication skills that support effective collaboration with our global engineering team.This position requires either equivalent practical experience or a Bachelor\u2019s degree in a related field.Base Pay Grade - JEquity Grade - 5Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills.Base pay is part of a total compensation package that may include equity rewards, monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents.)USA base pay range (CA, WA, NY, NJ, CT) per year: $130,000 - $180,000USA base pay range (all other U.S. states) per year: $115,000 - $165,000Remote-first with flexibility built inAffirm is proud to be a remote-first company. Most roles can be done from almost anywhere within the country of employment. Some positions may occasionally require in-person work at an Affirm office, and a few are office-based due to the nature of the work. All new hires will be invited to attend an in-person onboarding experience.Benefits Designed For YouOur benefits reflect our commitment to care, transparency, and flexibility. Here are a few highlights:Health coverage at no cost: We cover 100% of premiums for employees and their dependents.Spending stipends: Monthly stipends support your tech setup, and the ability to choose health and wellness options that are right for you.Time off to recharge: Flexible time off and generous holiday calendars help you rest when you need to.Own a piece of what you build: Our employee stock purchase plan (ESPP) lets you buy Affirm stock at a discount.We\u2019re committed to providing an inclusive interview process, including accommodations for candidates with disabilities. If you need support, we\u2019re happy to help.For positions based in San Francisco or Los Angeles: Affirm considers qualified applicants with arrest and conviction records, as required by law.By clicking \"Submit Application,\" you acknowledge that you have read Affirm's Global Candidate Privacy Notice and consent to the use of your personal information as described."
+  },
+  "4476876471": {
+   "code": 200,
+   "crit": {
+    "Seniority level": "Mid-Senior level",
+    "Employment type": "Full-time",
+    "Industries": "Financial Services"
+   },
+   "salary": null,
+   "desc": "At Affirm, we exist for the moments that matter\u2014giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.Our Marketplace is continually evolving to deliver a deeply personalized shopping experience that seamlessly links consumers with merchant partners. By leveraging machine learning alongside rich consumer and merchant data, we aim to simplify and streamline the customer journey around everyday and major purchases with tailored brands, products, deals, and offers. In tandem, we are advancing our Ads Platform which is a key technology that empowers merchant partners to strategically deploy their budgets and reach targeted consumers for maximum incremental impact.What You'll DoWith the support of your team\u2019s tech lead and manager, you will break down larger projects into individual tasks, deliver them in multiple phases, and collaborate with others to ensure timely delivery of your work.You will support your peers and stakeholders in the product development lifecycle by collaborating with product management, design & analytics by participating in ideation, articulating technical constraints, and partnering on decisions that properly consider risks and trade-offs.You will support the operations and availability of your team\u2019s artifacts by creating and monitoring metrics, escalating when needed, and supporting \u201ckeep the lights on\u201d & on-call efforts.You will contribute to a sense of community on your team by engaging in growth and development activities such as participation in the interview process.What We Look ForYou have a total of 1.5+ years of experience as a software engineer.You have experience shipping web apps using declarative UI frameworks like React.You have experience designing, developing and launching APIs at scale using languages like Python or Kotlin.You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code.You are comfortable navigating a large code base, debugging others' code, and providing feedback to other engineers through code reviews.Your experience demonstrates that you take ownership of your growth, proactively seeking feedback from your team, your manager, and your stakeholders.You have strong verbal and written communication skills that support effective collaboration with our global engineering team.This position requires either equivalent practical experience or a Bachelor\u2019s degree in a related field.Base Pay Grade - LEquity Grade - 6Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills.Base pay is part of a total compensation package that may include equity rewards, monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents.)USA base pay range (CA, WA, NY, NJ, CT) per year: $165,000 - $225,000USA base pay range (all other U.S. states) per year: $146,000 - $206,000Remote-first with flexibility built inAffirm is proud to be a remote-first company. Most roles can be done from almost anywhere within the country of employment. Some positions may occasionally require in-person work at an Affirm office, and a few are office-based due to the nature of the work. All new hires will be invited to attend an in-person onboarding experience.Benefits Designed For YouOur benefits reflect our commitment to care, transparency, and flexibility. Here are a few highlights:Health coverage at no cost: We cover 100% of premiums for employees and their dependents.Spending stipends: Monthly stipends support your tech setup, and the ability to choose health and wellness options that are right for you.Time off to recharge: Flexible time off and generous holiday calendars help you rest when you need to.Own a piece of what you build: Our employee stock purchase plan (ESPP) lets you buy Affirm stock at a discount.We\u2019re committed to providing an inclusive interview process, including accommodations for candidates with disabilities. If you need support, we\u2019re happy to help.For positions based in San Francisco or Los Angeles: Affirm considers qualified applicants with arrest and conviction records, as required by law.By clicking \"Submit Application,\" you acknowledge that you have read Affirm's Global Candidate Privacy Notice and consent to the use of your personal information as described."
+  },
+  "4483303207": {
+   "code": 429,
+   "crit": {},
+   "salary": null,
+   "desc": ""
+  }
+ }
+}
