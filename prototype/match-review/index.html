@@ -1,0 +1,355 @@
+<!doctype html>
+<!--
+  PROTOTYPE — throwaway. Answers wayfinder ticket
+  "Prototype: reviewing Matches and marking them Viewed" (schickm/job-posting-finder#5).
+
+  Five variants of the Match review surface, switchable via ?variant=A..E and the bottom bar.
+  Each variant is a different MEDIUM, not just a different layout:
+    A  Generated HTML digest page (static file written by each Run)
+    B  Local web app, inbox / split pane
+    C  Local web app, one-at-a-time queue
+    D  TUI (simulated here in the browser)
+    E  Markdown checklist file (simulated editor)
+  State is in memory only and shared across variants. Fake data. Reload = reset.
+  Run: xdg-open prototype/match-review/index.html
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROTOTYPE · Match review</title>
+<style>
+  :root { --fg:#1d1d1f; --muted:#6b6b70; --line:#e2e2e6; --bg:#fafafa; --accent:#2a5bd7; --li:#0a66c2; --bi:#e8590c; }
+  * { box-sizing: border-box; }
+  body { margin:0; font: 15px/1.45 system-ui, sans-serif; color:var(--fg); background:var(--bg); padding-bottom: 140px; }
+  a { color: var(--accent); }
+  .board { font-size:11px; font-weight:600; padding:1px 6px; border-radius:4px; color:#fff; white-space:nowrap; }
+  .board.LinkedIn { background:var(--li); } .board.BuiltIn { background:var(--bi); }
+  .muted { color:var(--muted); } .small { font-size:13px; }
+  .medium-note { background:#fff8db; border:1px solid #f0dc8a; padding:8px 12px; border-radius:6px; font-size:13px; margin:12px 0; }
+  .medium-note b { display:block; }
+  .viewed { opacity:.45; }
+
+  /* ---------- A: digest ---------- */
+  .A { max-width:820px; margin:0 auto; padding:24px 16px; }
+  .A h1 { font-size:22px; margin:0 0 4px; }
+  .A h2 { font-size:16px; margin:28px 0 8px; border-bottom:2px solid var(--fg); padding-bottom:4px; display:flex; justify-content:space-between; align-items:baseline; }
+  .A h3 { font-size:13px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); margin:14px 0 4px; }
+  .A table { width:100%; border-collapse:collapse; }
+  .A td { padding:6px 6px; border-bottom:1px solid var(--line); vertical-align:top; }
+  .A td.chk { width:28px; }
+  .A td.meta { color:var(--muted); font-size:13px; white-space:nowrap; text-align:right; }
+  .A button.link { background:none; border:none; color:var(--accent); cursor:pointer; font-size:13px; padding:0; }
+
+  /* ---------- B: inbox ---------- */
+  .B { display:grid; grid-template-columns: 380px 1fr; height:100vh; }
+  .B .list { border-right:1px solid var(--line); overflow:auto; background:#fff; }
+  .B .toolbar { position:sticky; top:0; background:#fff; padding:10px 12px; border-bottom:1px solid var(--line); display:flex; gap:8px; align-items:center; }
+  .B .toolbar button { border:1px solid var(--line); background:#fff; border-radius:14px; padding:2px 10px; cursor:pointer; font-size:13px; }
+  .B .toolbar button.on { background:var(--fg); color:#fff; border-color:var(--fg); }
+  .B .row { padding:10px 12px; border-bottom:1px solid var(--line); cursor:pointer; display:grid; grid-template-columns: 10px 1fr; gap:8px; }
+  .B .row.sel { background:#eef3ff; }
+  .B .dot { width:8px; height:8px; border-radius:50%; background:var(--accent); margin-top:7px; }
+  .B .row.viewed .dot { background:transparent; }
+  .B .row.viewed { opacity:1; } .B .row.viewed .t { font-weight:400; }
+  .B .t { font-weight:600; }
+  .B .detail { overflow:auto; padding:24px 32px; }
+  .B .detail h1 { font-size:22px; margin:6px 0; }
+  .B .facts { display:flex; flex-wrap:wrap; gap:6px 16px; font-size:13px; color:var(--muted); margin:8px 0 16px; }
+  .B .actions button { margin-right:8px; padding:6px 12px; border-radius:6px; border:1px solid var(--line); background:#fff; cursor:pointer; }
+
+  /* ---------- C: queue ---------- */
+  .C { max-width:640px; margin:0 auto; padding:40px 16px; }
+  .C .progress { height:6px; background:var(--line); border-radius:3px; overflow:hidden; margin-bottom:6px; }
+  .C .progress div { height:100%; background:var(--accent); transition:width .2s; }
+  .C .card { background:#fff; border:1px solid var(--line); border-radius:12px; padding:28px; margin-top:20px; box-shadow:0 4px 18px rgba(0,0,0,.06); }
+  .C .card h1 { font-size:24px; margin:8px 0 4px; }
+  .C .why { font-size:13px; background:#eef7ee; color:#2b6a2b; padding:6px 10px; border-radius:6px; margin:12px 0; }
+  .C .btns { display:flex; gap:10px; margin-top:20px; }
+  .C .btns button { flex:1; padding:12px; border-radius:8px; border:1px solid var(--line); background:#fff; font-size:15px; cursor:pointer; }
+  .C .btns button.primary { background:var(--accent); color:#fff; border-color:var(--accent); }
+  .C kbd, .D kbd { font:12px ui-monospace, monospace; border:1px solid var(--line); border-radius:3px; padding:0 4px; background:#fff; color:var(--fg); }
+  .C .done { text-align:center; padding:60px 0; font-size:20px; }
+
+  /* ---------- D: TUI ---------- */
+  .D { background:#1e1f22; min-height:100vh; padding:24px; }
+  .D .term { font:13px/1.5 ui-monospace, "JetBrains Mono", monospace; color:#d4d4d4; background:#111214; border-radius:8px; padding:12px 16px; max-width:1100px; margin:0 auto; white-space:pre; overflow:auto; outline:none; }
+  .D .term .hl { background:#2f4f8f; color:#fff; }
+  .D .term .dim { color:#6c6c6c; } .D .term .y { color:#e5c07b; } .D .term .g { color:#98c379; } .D .term .b { color:#61afef; } .D .term .o { color:#e8915c; }
+  .D .medium-note { max-width:1100px; margin:0 auto 12px; }
+
+  /* ---------- E: markdown ---------- */
+  .E { display:grid; grid-template-columns: 1fr 340px; height:100vh; }
+  .E .editor { background:#fdfdf8; display:flex; flex-direction:column; }
+  .E .tab { font:12px ui-monospace, monospace; padding:6px 12px; background:#ecebe4; border-bottom:1px solid #d8d6cc; }
+  .E textarea { flex:1; border:none; resize:none; padding:16px; font:13px/1.6 ui-monospace, monospace; background:transparent; outline:none; }
+  .E .side { border-left:1px solid var(--line); padding:16px; overflow:auto; background:#fff; font-size:13px; }
+
+  /* ---------- state panel + switcher ---------- */
+  #state { position:fixed; right:12px; bottom:70px; width:260px; max-height:40vh; overflow:auto; background:#fff; border:1px dashed #aaa; border-radius:8px; font:11px/1.4 ui-monospace, monospace; padding:8px; z-index:50; }
+  #state summary { cursor:pointer; font-weight:600; }
+  #switcher { position:fixed; left:50%; bottom:16px; transform:translateX(-50%); background:#ff2d78; color:#fff; border-radius:999px; padding:6px 8px; display:flex; align-items:center; gap:8px; box-shadow:0 6px 20px rgba(0,0,0,.3); z-index:100; font: 600 13px system-ui; }
+  #switcher button { background:rgba(255,255,255,.2); color:#fff; border:none; width:30px; height:30px; border-radius:50%; cursor:pointer; font-size:16px; }
+  #switcher span { min-width:260px; text-align:center; }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<details id="state" open><summary>PROTOTYPE state (in memory)</summary><div id="stateBody"></div></details>
+<div id="switcher"><button id="prev" title="Previous (←)">‹</button><span id="label"></span><button id="next" title="Next (→)">›</button></div>
+
+<script>
+// ---------------- fake data ----------------
+const RAW = [
+  // run, board, title, company, location, workplace, salary, seniority, type, posted, why
+  ['2026-11-20','LinkedIn','Senior Software Engineer, Platform','Tempus AI','Chicago, IL','Hybrid','$165k–$210k','Mid-Senior','Full-time','2026-11-19','hybrid · senior · salary ≥ $150k'],
+  ['2026-11-20','LinkedIn','Staff Engineer, Developer Experience','Sprout Social','Chicago, IL','Remote','not listed','Mid-Senior','Full-time','2026-11-20','remote · senior'],
+  ['2026-11-20','LinkedIn','Senior Full Stack Engineer (TypeScript)','Relativity','Chicago, IL','Hybrid','$150k–$185k','Mid-Senior','Full-time','2026-11-19','hybrid · senior · salary ≥ $150k'],
+  ['2026-11-20','BuiltIn','Senior Backend Engineer','Cityblock Health','Remote (US)','Remote','$170k–$200k','Senior','Full-time','2026-11-18','remote · senior · salary ≥ $150k'],
+  ['2026-11-20','BuiltIn','Lead Engineer, Data Products','project44','Chicago, IL','Hybrid','$160k–$190k','Lead','Full-time','2026-11-19','hybrid · lead · salary ≥ $150k'],
+  ['2026-11-19','LinkedIn','Senior Software Engineer','Braze','Chicago, IL','Hybrid','$155k–$190k','Mid-Senior','Full-time','2026-11-18','hybrid · senior · salary ≥ $150k'],
+  ['2026-11-19','LinkedIn','Principal Engineer, Payments','Avant','Chicago, IL','On-site','$190k–$240k','Director','Full-time','2026-11-17','senior · salary ≥ $150k'],
+  ['2026-11-19','BuiltIn','Senior Software Engineer, Frontend','Uptake','Chicago, IL','Hybrid','not listed','Senior','Full-time','2026-11-18','hybrid · senior'],
+  ['2026-11-19','BuiltIn','Staff Software Engineer','Kin Insurance','Remote (US)','Remote','$180k–$215k','Staff','Full-time','2026-11-18','remote · staff · salary ≥ $150k'],
+  ['2026-11-18','LinkedIn','Senior Engineer, Mobile Platform','Grubhub','Chicago, IL','Hybrid','$150k–$175k','Mid-Senior','Full-time','2026-11-16','hybrid · senior · salary ≥ $150k'],
+  ['2026-11-18','BuiltIn','Senior Software Engineer, Infrastructure','Enova','Chicago, IL','Hybrid','$155k–$185k','Senior','Full-time','2026-11-17','hybrid · senior · salary ≥ $150k'],
+  ['2026-11-18','BuiltIn','Software Engineer III','Morningstar','Chicago, IL','Hybrid','$140k–$165k','Mid','Full-time','2026-11-17','hybrid · salary range reaches $150k'],
+];
+const DESC = 'We are looking for an experienced engineer to own services end to end. You will design, build, and run systems in TypeScript and Go on AWS. You will work with product and design to ship features each week, mentor other engineers, and improve our developer tooling.\n\nRequirements: 6+ years of professional experience; strong knowledge of distributed systems; experience with PostgreSQL and Kubernetes.\n\nBenefits: health, dental, 401(k) match, flexible PTO.';
+const matches = RAW.map((r, i) => ({ id: (r[1]==='LinkedIn' ? 'li-' : 'bi-') + (4100000 + i*7919), run:r[0], board:r[1], title:r[2], company:r[3], location:r[4], workplace:r[5], salary:r[6], seniority:r[7], type:r[8], posted:r[9], why:r[10], viewed:false, description: DESC }));
+// two old ones already Viewed, to show a mixed state
+matches[9].viewed = true; matches[10].viewed = true;
+const boardName = b => b === 'BuiltIn' ? 'Built In Chicago' : 'LinkedIn';
+const url = m => m.board === 'LinkedIn' ? `https://www.linkedin.com/jobs/view/${m.id.slice(3)}` : `https://www.builtinchicago.org/job/${m.id.slice(3)}`;
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const runs = [...new Set(matches.map(m => m.run))].sort().reverse();
+const unviewed = () => matches.filter(m => !m.viewed);
+function setViewed(m, v) { m.viewed = v; render(); }
+function openPosting(m) { window.open(url(m), '_blank', 'noopener'); }
+
+// ---------------- variants ----------------
+const VARIANTS = {
+  A: { name: 'Generated HTML digest', render: renderA },
+  B: { name: 'Local web app: inbox', render: renderB },
+  C: { name: 'Local web app: one at a time', render: renderC },
+  D: { name: 'TUI (simulated)', render: renderD },
+  E: { name: 'Markdown checklist (simulated)', render: renderE },
+};
+const KEYS = Object.keys(VARIANTS);
+let variant = new URLSearchParams(location.search).get('variant')?.toUpperCase();
+if (!VARIANTS[variant]) variant = 'A';
+let keyHandler = null; // per-variant keyboard handler
+
+// ---- A: static digest page written by each Run, grouped Run > Job Board ----
+function renderA(el) {
+  const rows = (list) => list.map(m => `
+    <tr class="${m.viewed?'viewed':''}">
+      <td class="chk"><input type="checkbox" data-id="${m.id}" ${m.viewed?'checked':''} title="Viewed"></td>
+      <td><a href="${url(m)}" target="_blank" data-open="${m.id}">${esc(m.title)}</a> — ${esc(m.company)}<br>
+        <span class="small muted">${esc(m.location)} · ${esc(m.workplace)} · ${esc(m.salary)} · ${esc(m.seniority)}</span></td>
+      <td class="meta">posted ${m.posted.slice(5)}</td>
+    </tr>`).join('');
+  el.innerHTML = `<div class="A">
+    <h1>Job Postings — Matches</h1>
+    <div class="muted small">file:///home/matt/.local/share/job-posting-finder/digest.html · rewritten by each Run · ${unviewed().length} not Viewed</div>
+    <div class="medium-note"><b>Medium: a static HTML file that each Run writes. Open it from the Pushover link or a bookmark.</b>
+      Problem to judge: a static file cannot write the Viewed state back to disk. Options: (1) checkboxes keep state in the browser only (localStorage), and the next Run does not know; (2) a "mark Viewed" link calls a tiny local server; (3) Viewed = "the Run after you opened the file". Here the checkbox simply works.</div>
+    ${runs.map(r => {
+      const inRun = matches.filter(m => m.run === r);
+      const n = inRun.filter(m => !m.viewed).length;
+      return `<h2><span>Run ${r} <span class="muted small">(${inRun.length} Matches, ${n} not Viewed)</span></span>
+        ${n ? `<button class="link" data-run="${r}">mark all Viewed</button>` : ''}</h2>
+        ${['LinkedIn','BuiltIn'].map(b => { const l = inRun.filter(m => m.board === b); return l.length ? `<h3>${boardName(b)}</h3><table>${rows(l)}</table>` : ''; }).join('')}`;
+    }).join('')}
+  </div>`;
+  el.querySelectorAll('input[data-id]').forEach(cb => cb.onchange = () => setViewed(matches.find(m => m.id === cb.dataset.id), cb.checked));
+  el.querySelectorAll('a[data-open]').forEach(a => a.onclick = () => setTimeout(() => setViewed(matches.find(m => m.id === a.dataset.open), true)));
+  el.querySelectorAll('button[data-run]').forEach(b => b.onclick = () => { matches.filter(m => m.run === b.dataset.run).forEach(m => m.viewed = true); render(); });
+}
+
+// ---- B: local web app, inbox with list + detail; selecting marks Viewed ----
+let bFilter = 'unviewed', bSel = null;
+function renderB(el) {
+  const list = bFilter === 'unviewed' ? matches.filter(m => !m.viewed || m.id === bSel) : matches;
+  const sel = matches.find(m => m.id === bSel);
+  el.innerHTML = `<div class="B">
+    <div class="list">
+      <div class="toolbar">
+        <button data-f="unviewed" class="${bFilter==='unviewed'?'on':''}">Not Viewed (${unviewed().length})</button>
+        <button data-f="all" class="${bFilter==='all'?'on':''}">All (${matches.length})</button>
+        <span class="small muted" style="margin-left:auto"><kbd>j</kbd>/<kbd>k</kbd></span>
+      </div>
+      ${list.map(m => `<div class="row ${m.viewed?'viewed':''} ${m.id===bSel?'sel':''}" data-id="${m.id}">
+        <div class="dot"></div>
+        <div><div class="t">${esc(m.title)}</div>
+          <div class="small muted">${esc(m.company)} · ${esc(m.workplace)} · ${esc(m.salary)}</div>
+          <div class="small muted"><span class="board ${m.board}">${boardName(m.board)}</span> Run ${m.run.slice(5)}</div></div>
+      </div>`).join('') || '<div style="padding:20px" class="muted">Nothing left. All Matches are Viewed.</div>'}
+    </div>
+    <div class="detail">
+      <div class="medium-note"><b>Medium: a small local web app (Node server on localhost) that reads the stored Postings.</b>
+        Opening a Match marks it Viewed, like an email inbox. The full description from the Job Board shows here, so you open the Job Board only to apply. Needs a process that runs, or that starts on demand.</div>
+      ${sel ? `<span class="board ${sel.board}">${boardName(sel.board)}</span>
+        <h1>${esc(sel.title)}</h1><div style="font-size:17px">${esc(sel.company)}</div>
+        <div class="facts"><span>📍 ${esc(sel.location)}</span><span>🏢 ${esc(sel.workplace)}</span><span>💲 ${esc(sel.salary)}</span><span>${esc(sel.seniority)}</span><span>${esc(sel.type)}</span><span>posted ${sel.posted}</span><span>found in Run ${sel.run}</span></div>
+        <div class="actions"><button id="bOpen">Open on ${boardName(sel.board)} ↗</button><button id="bUnview">Mark not Viewed</button></div>
+        <p class="small muted">Local Filter: ${esc(sel.why)}</p>
+        <div style="white-space:pre-wrap;max-width:720px">${esc(sel.description)}</div>`
+      : '<p class="muted">Select a Match.</p>'}
+    </div></div>`;
+  el.querySelectorAll('[data-f]').forEach(b => b.onclick = () => { bFilter = b.dataset.f; render(); });
+  el.querySelectorAll('.row').forEach(r => r.onclick = () => bSelect(r.dataset.id));
+  if (sel) { el.querySelector('#bOpen').onclick = () => openPosting(sel); el.querySelector('#bUnview').onclick = () => setViewed(sel, false); }
+  keyHandler = (e) => {
+    const ids = [...el.querySelectorAll('.row')].map(r => r.dataset.id);
+    const i = ids.indexOf(bSel);
+    if (e.key === 'j' && ids.length) bSelect(ids[Math.min(i + 1, ids.length - 1)]);
+    if (e.key === 'k' && ids.length) bSelect(ids[Math.max(i - 1, 0)]);
+    if (e.key === 'o' && sel) openPosting(sel);
+  };
+}
+function bSelect(id) { bSel = id; matches.find(m => m.id === id).viewed = true; render(); }
+
+// ---- C: one Match at a time, oldest Run first; every decision marks Viewed ----
+let cSkipped = new Set();
+function renderC(el) {
+  const queue = matches.filter(m => !m.viewed && !cSkipped.has(m.id)).sort((a, b) => a.run.localeCompare(b.run));
+  const total = matches.length, done = matches.filter(m => m.viewed).length;
+  const m = queue[0];
+  el.innerHTML = `<div class="C">
+    <div class="medium-note"><b>Medium: local web app, but the only screen is "the next Match".</b>
+      You cannot leave a Match half-reviewed: each one ends as Viewed (open it or dismiss it). "Later" puts it back at the end of the queue for this session only. Best for a short daily habit; bad for a look back at last week.</div>
+    <div class="progress"><div style="width:${100*done/total}%"></div></div>
+    <div class="small muted">${done} of ${total} Viewed · ${queue.length} in the queue${cSkipped.size ? ` · ${cSkipped.size} later` : ''}</div>
+    ${m ? `<div class="card">
+      <span class="board ${m.board}">${boardName(m.board)}</span> <span class="small muted">Run ${m.run} · posted ${m.posted}</span>
+      <h1>${esc(m.title)}</h1>
+      <div style="font-size:17px">${esc(m.company)} — ${esc(m.location)}</div>
+      <div class="small muted" style="margin-top:6px">${esc(m.workplace)} · ${esc(m.salary)} · ${esc(m.seniority)} · ${esc(m.type)}</div>
+      <div class="why">Local Filter passed: ${esc(m.why)}</div>
+      <div class="small" style="white-space:pre-wrap;max-height:160px;overflow:hidden;-webkit-mask-image:linear-gradient(#000 70%,transparent)">${esc(m.description)}</div>
+      <div class="btns">
+        <button id="cLater">Later <kbd>l</kbd></button>
+        <button id="cDismiss">Not for me <kbd>x</kbd></button>
+        <button id="cOpen" class="primary">Open ↗ <kbd>o</kbd></button>
+      </div></div>`
+    : `<div class="done">✓ All caught up.${cSkipped.size ? `<br><button id="cBack" style="margin-top:16px">Show ${cSkipped.size} saved for later</button>` : ''}</div>`}
+  </div>`;
+  const later = () => { cSkipped.add(m.id); render(); };
+  const dismiss = () => setViewed(m, true);
+  const open = () => { openPosting(m); setViewed(m, true); };
+  if (m) { el.querySelector('#cLater').onclick = later; el.querySelector('#cDismiss').onclick = dismiss; el.querySelector('#cOpen').onclick = open; }
+  else if (cSkipped.size) el.querySelector('#cBack').onclick = () => { cSkipped.clear(); render(); };
+  keyHandler = (e) => { if (!m) return; if (e.key === 'l') later(); if (e.key === 'x') dismiss(); if (e.key === 'o') open(); };
+}
+
+// ---- D: TUI in the terminal ----
+let dCursor = 0, dShowAll = false, dExpanded = false;
+function renderD(el) {
+  const list = dShowAll ? matches : matches.filter(m => !m.viewed);
+  dCursor = Math.max(0, Math.min(dCursor, list.length - 1));
+  const pad = (s, n) => { s = String(s); return s.length > n ? s.slice(0, n - 1) + '…' : s.padEnd(n); };
+  let out = `<span class="dim">$</span> jpf review\n`;
+  out += `<span class="b">job-posting-finder</span> · ${unviewed().length} not Viewed · ${matches.length} total · filter: <span class="y">${dShowAll ? 'all' : 'not viewed'}</span>\n`;
+  out += `<span class="dim">${'─'.repeat(118)}</span>\n`;
+  out += `<span class="dim">  ${pad('', 2)}${pad('RUN', 7)}${pad('BOARD', 10)}${pad('TITLE', 42)}${pad('COMPANY', 18)}${pad('WHERE', 9)}${pad('SALARY', 14)}</span>\n`;
+  list.forEach((m, i) => {
+    const line = `  ${m.viewed ? ' ' : '●'} ${pad(m.run.slice(5), 7)}${pad(m.board === 'LinkedIn' ? 'LinkedIn' : 'BuiltIn', 10)}${pad(m.title, 42)}${pad(m.company, 18)}${pad(m.workplace, 9)}${pad(m.salary, 14)}`;
+    out += i === dCursor ? `<span class="hl">${esc(line.padEnd(118))}</span>\n` : (m.viewed ? `<span class="dim">${esc(line)}</span>\n` : esc(line) + '\n');
+  });
+  if (!list.length) out += '\n  <span class="g">All caught up.</span>\n';
+  const m = list[dCursor];
+  if (m && dExpanded) {
+    out += `<span class="dim">${'─'.repeat(118)}</span>\n`;
+    out += `<span class="y">${esc(m.title)}</span> — ${esc(m.company)}\n<span class="dim">${esc(m.location)} · ${esc(m.workplace)} · ${esc(m.salary)} · ${esc(m.seniority)} · ${esc(m.type)} · Local Filter: ${esc(m.why)}</span>\n<span class="dim">${esc(url(m))}</span>\n\n`;
+    out += esc(m.description).replace(/(.{1,116})(\s|$)/g, '$1\n') + '\n';
+  }
+  out += `<span class="dim">${'─'.repeat(118)}</span>\n`;
+  out += `<span class="o">j/k</span> move  <span class="o">enter</span> details  <span class="o">o</span> open in browser (marks Viewed)  <span class="o">v</span> toggle Viewed  <span class="o">V</span> mark all shown Viewed  <span class="o">a</span> all/not viewed  <span class="o">q</span> quit`;
+  el.innerHTML = `<div class="D"><div class="medium-note"><b>Medium: a TUI (for example Ink) that you start in a terminal: <code>jpf review</code>. Simulated here; click the terminal, then use the keys.</b>
+    Fits the rest of a CLI tool and reads the stored files directly; no server. The full description is plain text, and to apply you open the Job Board in the browser.</div>
+    <div class="term" tabindex="0">${out}</div></div>`;
+  el.querySelector('.term').focus();
+  keyHandler = (e) => {
+    const cur = list[dCursor];
+    if (e.key === 'j' || e.key === 'ArrowDown') { dCursor++; e.preventDefault(); }
+    else if (e.key === 'k' || e.key === 'ArrowUp') { dCursor--; e.preventDefault(); }
+    else if (e.key === 'Enter') dExpanded = !dExpanded;
+    else if (e.key === 'o' && cur) { openPosting(cur); cur.viewed = true; }
+    else if (e.key === 'v' && cur) cur.viewed = !cur.viewed;
+    else if (e.key === 'V') list.forEach(x => x.viewed = true);
+    else if (e.key === 'a') dShowAll = !dShowAll;
+    else return;
+    render();
+  };
+}
+
+// ---- E: Markdown checklist file edited by hand; next Run reads [x] back ----
+let eText = null;
+function mdFromState() {
+  let s = `# Matches\n\n<!-- Written by job-posting-finder. Tick [x] to mark a Match Viewed. -->\n<!-- The next Run reads the ticks back and removes Viewed items older than 7 days. -->\n`;
+  for (const r of runs) {
+    s += `\n## Run ${r}\n`;
+    for (const b of ['LinkedIn', 'BuiltIn']) {
+      const l = matches.filter(m => m.run === r && m.board === b);
+      if (!l.length) continue;
+      s += `\n### ${boardName(b)}\n\n`;
+      for (const m of l) s += `- [${m.viewed ? 'x' : ' '}] [${m.title} — ${m.company}](${url(m)}) · ${m.workplace} · ${m.salary} <!-- ${m.id} -->\n`;
+    }
+  }
+  return s;
+}
+function renderE(el) {
+  if (eText === null) eText = mdFromState();
+  el.innerHTML = `<div class="E">
+    <div class="editor"><div class="tab">~/.local/share/job-posting-finder/matches.md — nvim (simulated, edit the text)</div><textarea spellcheck="false"></textarea></div>
+    <div class="side">
+      <div class="medium-note" style="margin-top:0"><b>Medium: one Markdown file that each Run rewrites. You edit it in your editor or in Obsidian.</b>
+        No UI code at all. The Run reads <code>[x]</code> back by the id in the HTML comment. Risk: if you edit the file during a Run, one of the two writes is lost. Change <code>[ ]</code> to <code>[x]</code> at the left.</div>
+      <b>What the next Run would parse:</b><div id="eParsed" style="margin-top:8px"></div>
+    </div></div>`;
+  const ta = el.querySelector('textarea'); ta.value = eText;
+  const parse = () => {
+    eText = ta.value;
+    const seen = {};
+    for (const line of eText.split('\n')) { const mm = line.match(/^- \[([ xX])\].*<!-- (\S+) -->/); if (mm) seen[mm[2]] = mm[1] !== ' '; }
+    matches.forEach(m => { if (m.id in seen) m.viewed = seen[m.id]; });
+    el.querySelector('#eParsed').innerHTML = matches.map(m => `<div class="${m.viewed?'viewed':''}">${m.viewed ? '☑' : '☐'} ${esc(m.title)} <span class="muted">(${m.id})</span>${m.id in seen ? '' : ' <b style="color:#c00">line missing</b>'}</div>`).join('');
+    renderState();
+  };
+  ta.oninput = parse; parse();
+  keyHandler = null;
+}
+
+// ---------------- shell ----------------
+function renderState() {
+  const byRun = runs.map(r => { const l = matches.filter(m => m.run === r); return `Run ${r}: ${l.filter(m => m.viewed).length}/${l.length} Viewed`; });
+  document.getElementById('stateBody').innerHTML =
+    `variant=${variant}<br>not Viewed: ${unviewed().length} / ${matches.length}<br>${byRun.join('<br>')}<hr>` +
+    matches.map(m => `${m.viewed ? '[x]' : '[ ]'} ${m.id} ${esc(m.title.slice(0, 24))}`).join('<br>');
+}
+function render() {
+  keyHandler = null;
+  if (variant !== 'E') eText = null; // E regenerates its file from state when you enter it
+  VARIANTS[variant].render(document.getElementById('app'));
+  document.getElementById('label').textContent = `${variant} (${VARIANTS[variant].name})`;
+  renderState();
+}
+function go(delta) {
+  variant = KEYS[(KEYS.indexOf(variant) + delta + KEYS.length) % KEYS.length];
+  const u = new URL(location.href); u.searchParams.set('variant', variant);
+  try { history.replaceState(null, '', u); } catch {}
+  eText = null; render(); window.scrollTo(0, 0);
+}
+document.getElementById('prev').onclick = () => go(-1);
+document.getElementById('next').onclick = () => go(1);
+document.addEventListener('keydown', (e) => {
+  const t = e.target;
+  const typing = t.matches('input[type=text], textarea, [contenteditable]');
+  if (!typing && (e.key === 'ArrowLeft' || e.key === 'ArrowRight')) { go(e.key === 'ArrowLeft' ? -1 : 1); return; }
+  if (!typing && keyHandler) keyHandler(e);
+});
+render();
+</script>
+</body>
+</html>
