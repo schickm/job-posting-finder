@@ -17,13 +17,17 @@ One job advertisement as found on a Job Board.
 _Avoid_: Job, listing, ad
 
 **Local Filter**:
-Rules applied on this machine to scraped Postings, after the Job Board's own search, to decide which Postings are Matches. One set of rules applies to all Job Boards.
+The decision, made on this machine after the Job Board's own search, of which Postings are Matches. It has two stages: hard rules on Posting fields, then an LLM judgment of the full Posting against what the user wants. One Local Filter applies to all Job Boards.
 _Avoid_: Post-filter, Search Profile (that is the search on the Job Board)
 
 **Match**:
 A Posting that passed the Local Filter, for the user to review. A Match is either Viewed or not Viewed.
 _Avoid_: Result, hit, candidate
 
+**Sweep**:
+One scheduled execution of the tool. It searches each Job Board once with that Job Board's Search Profile, applies the Local Filter to the new Postings, and stores them. One Job Board's part is called "the Sweep of <Job Board>".
+_Avoid_: Run, job, scrape, Board Search
+
 **Silent Failure**:
-Any situation where the system stops collecting Postings correctly and the user is not told: a scheduled run that never starts, a run that crashes, or a Job Board that returns empty or malformed results without an error.
+Any situation where the system stops collecting Postings correctly and the user is not told: a scheduled Sweep that never starts, a Sweep that crashes, or a Job Board that returns empty or malformed results without an error.
 _Avoid_: Outage, bug
